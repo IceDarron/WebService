@@ -27,6 +27,7 @@ public class ServiceHello {
 		Endpoint.publish("http://localhost:10000/Service/ServiceHello",
 				new ServiceHello());
 		System.out.println("service success!");
+		
 	}
 
 }
