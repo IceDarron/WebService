@@ -1,0 +1,4 @@
+该报下的文件在发布TheService后，在本地dos下执行
+【wsimport -s H:\\Myeclipse\\workspace\\TheClient\\src -p com.darron.client -keep http://localhost:10000/Service/ServiceHello?wsdl】
+即会自动生成。
+具体原理并不明白。猜测应该是按照服务端的@WebService和dos命令翻译的，但是由什么生成并不清楚，难道是class文件反编译过来的？
